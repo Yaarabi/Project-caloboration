@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+
+    main{
+        text-align: center;
+        height: 400vh;
+        .product{
+        border-radius: 10px;
+        background-color: #1F7D53;
+        margin: 30px;
+        img{
+            height: 50%;
+            width: 100%;
+            border-radius: 10px 10px 0 0;
+        }
+        }
+    }
+}
+@media (min-width:480px) {
+    body{
+        main{
+            
+            height: 150vh;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: space-around;
+            .product{
+                height: 400px;
+                width: 400px;
+            }
+        }
+    }
+    
+}
