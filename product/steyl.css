@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
     main{
         text-align: center;
@@ -10,11 +10,23 @@ body{
         border-radius: 10px;
         background-color: #1F7D53;
         margin: 30px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+        
+        h2{
+            text-align: center;
+        }
         img{
-            height: 50%;
+            height: 58%;
             width: 100%;
             border-radius: 10px 10px 0 0;
         }
+        p{
+            padding: 5px;
+            text-align: justify;
+        }
+        }
+        .product:hover{
+            transform: translate(-10px, -10px);
         }
     }
 }
@@ -29,7 +41,7 @@ body{
             align-items: space-around;
             .product{
                 height: 400px;
-                width: 400px;
+                width: 350px;
             }
         }
     }
